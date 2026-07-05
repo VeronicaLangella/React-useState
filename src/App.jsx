@@ -1,5 +1,6 @@
 
 import Counter from "./components/Counter";
+import ToggleBtn from "./components/ToggleBtn";
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Counter />
+      <ToggleBtn />
     </>
   )
 }
